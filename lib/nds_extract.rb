@@ -21,7 +21,7 @@ def gross_for_director(d)
     index += 1
   end
 
-  total
+  return total
 end
 
 def list_of_directors(source)
