@@ -51,5 +51,4 @@ while i < list_of_directors(source).length do
   t=t+directors_totals[list_of_directors[i]]
   i += 1
 end
-
 end
