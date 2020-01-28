@@ -47,8 +47,9 @@ def total_gross(source)
   # return the total
 i=0
 t=0
+dt = directors_totals(source)
 while i < list_of_directors(source).length do
-  t=t+directors_totals[:list_of_directors[i]]
+  t=t+dt[:list_of_directors[i]]
   i += 1
 end
 return t
